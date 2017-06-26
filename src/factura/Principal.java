@@ -17,6 +17,16 @@ public class Principal {
         
         Cliente unCliente = new Cliente();
         unCliente.setNombre("Manuel");
+        unCliente.setApellido("Perez");
+        unCliente.setCalle("Cabildo");
+        unCliente.setAltura(1234);
+        
+        Pais unPais = new Pais();
+        unPais.setNombre("Argentina");
+        
+        Provincia unaProvincia = new Provincia();
+        unaProvincia.setNombre("Buenos Aires");
+        
         
         FormaCobro unFormaCobro = new FormaCobro();
         unFormaCobro.setNombre("Visa");
