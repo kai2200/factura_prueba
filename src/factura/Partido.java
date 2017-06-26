@@ -10,5 +10,22 @@ package factura;
  * @author alumno
  */
 public class Partido {
-    
+    private String nombre;
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Provincia getNombre_provincia() {
+        return nombre_provincia;
+    }
+
+    public void setNombre_provincia(Provincia nombre_provincia) {
+        this.nombre_provincia = nombre_provincia;
+    }
+    private Provincia nombre_provincia;
 }
